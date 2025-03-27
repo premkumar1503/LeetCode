@@ -20,7 +20,7 @@ class solution4
             }
         }
         if (totalFreq * 2 <= n) {
-            return -1; // No dominant element
+            return -1; 
         }
 
         // Step 3: Try to split at the minimum valid index
