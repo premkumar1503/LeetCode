@@ -23,7 +23,6 @@ class solution4
             return -1; 
         }
 
-        // Step 3: Try to split at the minimum valid index
         int leftCount = 0;
         for (int i = 0; i < n - 1; i++) {
             if (nums.get(i) == candidate) {
