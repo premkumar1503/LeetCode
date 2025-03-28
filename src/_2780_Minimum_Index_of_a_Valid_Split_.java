@@ -20,10 +20,9 @@ class solution4
             }
         }
         if (totalFreq * 2 <= n) {
-            return -1; // No dominant element
+            return -1; 
         }
 
-        // Step 3: Try to split at the minimum valid index
         int leftCount = 0;
         for (int i = 0; i < n - 1; i++) {
             if (nums.get(i) == candidate) {
