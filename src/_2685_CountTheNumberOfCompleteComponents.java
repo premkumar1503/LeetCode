@@ -25,6 +25,7 @@ class CompleteComponentsCounter {
                     completeCount++;
                 }
             }
+
         }
 
         return completeCount;

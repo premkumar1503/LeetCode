@@ -52,7 +52,7 @@ class DisjointSet {
     }
 }
 
-class Solution {
+class Solution13 {
     public int[] minimumCost(int n, int[][] edges, int[][] queries) {
         DisjointSet ds = new DisjointSet(n);
 
@@ -70,11 +70,11 @@ class Solution {
         return result;
     }
 }
-    // Main method to test with sample input
-public class Minimum_Cost_Walk_3108
+// Main method to test with sample input
+public class _3108_Minimum_Cost_Walk_
 {
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution13 solution = new Solution13();
         Scanner scanner = new Scanner(System.in);
 
         // Input: number of nodes and edges
@@ -93,6 +93,3 @@ public class Minimum_Cost_Walk_3108
         }
     }
 }
-
-
-
